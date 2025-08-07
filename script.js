@@ -1,4 +1,5 @@
 // Mobile menu toggle
+
 const mobileMenu = document.getElementById('mobile-menu');
 const navLinks = document.getElementById('nav-links');
 
@@ -34,4 +35,5 @@ form.addEventListener('submit', () => {
 
     // Remove after 5 seconds
     setTimeout(() => thankYouMessage.remove(), 5000);
+
 })
