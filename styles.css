@@ -21,6 +21,10 @@ body {
     background-color: #919da2;
     padding-top: 70px; /* To account for fixed navbar */
 }
+.logo:hover{
+    cursor: pointer;
+    color: var(--secondary-color);
+}
 
 a {
     text-decoration: none;
